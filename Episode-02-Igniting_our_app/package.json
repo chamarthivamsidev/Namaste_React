@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is the react app",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start" : "npx parcel index.html",
+    "build" : "npx parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,6 @@
     "process": "^0.11.10"
   },
   "browserslist":[
-    "last 2 versions"
+    "last 2 versions" 
   ]
 }
