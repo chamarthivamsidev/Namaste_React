@@ -1,19 +1,9 @@
-# Parcel
+# Topics
 
-- Dev Build
-- Local Server
-- HMR -> Hot Module Replacement
-- File Watching Algorithm -> written in C++
-- Caching -> Faster Builds
-- Image Optimization
-- Minification
-- Bundling
-- Compress
-- consistent Hashing
-- Code Splitting
-- Differential Bundling -> to support older browsers
-- Diagnostic
-- Error Handling
-- HTTPs
-- Tree Shaking - remove unused code
-- Different dev and production bundles
+- JSX
+- React.createElement vs JSX
+- Benifits of JSX
+- Behind the scene of JSX
+- Babel & Parcel role in JSX
+- Components
+- Functional Components (Composing Components)
