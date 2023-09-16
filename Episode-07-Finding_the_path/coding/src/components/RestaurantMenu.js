@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
-import { MENU_URL } from "../utils/constants";
+import { MENU_URL, CDN_URL } from "../utils/constants";
 
 function RestaurantMenu() {
   const [resInfo, setResInfo] = useState(null);
@@ -39,13 +39,22 @@ function RestaurantMenu() {
         {cuisines.join(", ")} - {costForTwoMessage}
       </p>
       <h2>Menu</h2>
-      <ul>
-        {itemCards.map((item, index) => (
-          <li key={index}>
-            {item?.card?.info?.name} - Rs.{item?.card?.info?.price / 100}
-          </li>
+      <div className="restro-container">
+        {itemCards?.map((item, index) => (
+          <div className="restro-card">
+            <img
+              className="restro-logo"
+              src={CDN_URL + item?.card?.info?.imageId}
+            />
+            <h3>
+              {item?.card?.info?.name} - Rs.
+              {item?.card?.info?.price / 100 ||
+                item?.card?.info?.defaultPrice / 100}
+            </h3>
+            <h4>{item?.card?.info?.description}</h4>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

@@ -1,37 +1,23 @@
-# Assignment-5
+# Assignment-7
 
 ## Theory
 
-- What is a Microservice?
+- What are various ways to add images into our App? Explain with code examples ?
 
-- What is Monolith architecture?
+- What would happen if we do console.log(useState())?
 
-- What is the difference between Monolith and Microservice?
+- How will useEffect behave if we don't add a dependency array?
 
-- Why do we need a useEffect Hook?
+- What is SPA?
 
-- What is Optional Chaining?
-
-- What is Shimmer UI?
-
-- What is the difference between JS expression and JS statement?
-
-- What is Conditional Rendering, explain with a code example
-
-- What is CORS?
-
-- What is async and await?
-
-- what is the use of `const json = await data.json()` in getRestaurants()
+- What is the difference between client side routing and server side routing?
 
 ## Coding
 
-- Play with the useEffect Hook to see when it is called. (before or after render)
-- Play with dependency array in useEffect Hook
-- Play with the developer console by putting a debugger in render and useEffect
-- Call an actual API to get data
-- Handle error in your api call
-- Build Shimmer UI when data is not loaded
-- Render your UI with actual API data
-- Make Search functionality work
-- Make a Login Logout button that toggles with a state
+- Add Shimmer Effect without installing a library?
+- Installl react-router-dom
+- Create a appRouter and Provide it to the app
+- Create a Home, About, Contact Page with Line (use child routes)
+- Make a Error Page with dynamic restaurant ID
+- Create a Restaurant Page with dynamic restaurant ID
+- (Extra) - Create a login page using Formik Library
