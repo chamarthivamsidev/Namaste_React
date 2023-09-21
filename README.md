@@ -9,4 +9,4 @@
 - Episode-07 => React Routing, Nested Routes
 - Episode-08 => All about class based components
 - Episode-09 => Custom Hooks and Lazy Loading
-- Episode-10 =>
+- Episode-10 => Tailwind CSS

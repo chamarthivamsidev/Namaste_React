@@ -16,3 +16,4 @@
 - [Doc for setup](https://tailwindcss.com/docs/installation/framework-guides)
 - [Doc for setup with parcel](https://tailwindcss.com/docs/guides/parcel)
 - Tailwind CSS IntelliSense -> VS code extension
+- Dark and Light Mode
